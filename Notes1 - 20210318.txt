@@ -1,0 +1,64 @@
+Aplikasi  dokter hewaan
+
+
+
+Backgroundnya => sudah semakin banyak pecinta hewan sekarang ini, dan adanya 
+kebutuhan untuk mendapatkan pelayanan kesehatan untuk hewan peliharaan kita
+
+Problem : - Sulit untuk mencari informasi perihal klinik/dokter hewan yang ada di sekitar lingkungan kita
+          - Belum begitu banyak portal/informasi/aplikasi lokal mengenai kesehatan hewan peliharaan
+       
+
+React Native 
+
+- Fitur Chat dengan dokter hewan (firebase real-time database)
+
+- Fitur artikel untuk melihat perihal tentang kesehatan hewan dan pertolongan perttama jika hewan sakit
+
+- fitur profile hewan dan ada statusnya apakah sudah divaksin atau belum 
+
+- fitur calender (sebagai pengingat next control ke dokter hewan)
+
+- buat janji dengan dokter hewan
+
+- fitur untuk melihat klinik hewan terdekat (meggunakan google maps)
+
+- fitur untuk menggunakan jasa perawatan hewan yang bisa dipanggil ke rumah ( seperti go-clean)
+
+- fitur untuk mengadopsi hewan
+
+
+
+
+Halo Petss
+
+Aplikasi disepakati berbasis Web
+
+back end leader : mas agung
+
+front end leader : mas andro
+
+fullstack : gifani, mas aldo , enriko 
+
+
+
+fitur MVP :
+
+* konsultasi dokter hewan lewat chatting (explore teknologi yang mau digunakan socket/firebase/? deadline besok jam 13.00 WIB)
+* List hewan yang bisa di adopsi ( menggunakan multer dan google storage)
+
+
+Notes
+
+- Database ada 5 table : user, pet, dokter, chat, dan favorite  
+- Artikel ada di halaman home -> menggunakan state redux
+- Fitur Adoption CRUD (untuk user) ada authorization untuk CRUDnya
+- Di Card adoption ditampilkan keterangan nomor telepone dan email user yang post 
+
+
+Kendala :
+
+- Chat dengan dokter, ada kemungkinan gak bisa ada histroy jika menggunakan socket
+- Chat antara user di drop
+- Fitur antar jemput hewan dan lokasi track di drop
+- Fitur pengingat waktu vaksin juga di drop (flownya bingung)
